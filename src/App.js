@@ -6,7 +6,7 @@ function App() {
         <>
             <h1>Hola, from React in App.js</h1>
             <button onClick={() => {
-                electron.notificationApi.sendNotification('My custom notification')
+                electron.notificationApi.sendNotification('Maxie is so fucking hot.')
             }}>Notify</button>
         </>
     )
